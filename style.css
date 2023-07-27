@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    position: relative;
+    min-height: 60vh;
+    background: url(pixel.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    width: 90%;
+
+}
+.nav{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+
+
+}
+.headline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%,-50%);
+}
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.section-todo{
+    margin-top: 5rem;
+    text-align: center;
+
+}
+.bg-dark{
+    background: #000;
+    color: #eee;
+}
+.form-todo{
+    
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.form-list{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+.form-list li{
+    padding: 0.7rem;
+    background: #444;
+    color: cyan;
+    margin: top 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.todo-btn{
+    min-height: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer; 
+}
+.form-todo input{
+    min-height: 100%;
+}
+.form-todo input[type="text"]{
+    width: 78%;
+    font-weight: bold;
+    padding: 1.8rem;
+    font-size: 1rem;
+}
+.form-todo input[type="submit"]{
+    width: 20%;
+    background-color: brown;
+    font-weight: 400;
+
+    
+}
+.signup-form{
+    max-width: 800px;
+    width: 100%;
+}
+.section-signup{
+    margin-top: 5rem;
+    text-align: left;
+    background: grey;
+    border-radius: 20px;
+    padding: 1rem;
+    
+
+}
+.signup-form label{
+    display: block;
+
+}
+.signup-form input{
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem;
+
+}
+.form-group{
+    margin-top: 1rem;
+}
+.signup-btn{
+    background: rgb(44,55,63);
+    color: aliceblue;
+    padding: 1rem 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
